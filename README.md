@@ -1,5 +1,6 @@
 # Video_App
 
+A basic Video App using Node.js, express.js, peer.js, and Embedded JavaScript(HTML), Universal Unique Identifier.
 
 Requirements:
 
