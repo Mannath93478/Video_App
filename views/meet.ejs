@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Conference</title>
+    <!--  <link rel="stylesheet" href="style.css">  -->
+
+    <script>
+
+        // Printing the Unique Room Id generated using
+        // Universally Unique Identifier
+        console.log("<%= meet_ID %>");
+    </script>
+
+    
+    <!-- Importing the Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+
+</head>
+<body>
+    <!-- Displaying the Basic Test on the Page-->
+    Creating a Basic Video Conference APP.
+    <div id ="video-grid"></div>
+    <script src="script.js"></script>
+
+    <!-- Adding Buttons using Font Awesome -->
+    <!-- Aligning these buttons to the left-->
+    <div class="bottom-left">
+
+        <!-- Button for Mute and Unmute -->
+        <button id="muteUnmuteBtn"><i class="fas fa-microphone"></i></button>
+
+        <!-- Button for Starting and Stoping Video -->
+        <button id="startStopVideoBtn"><i class="fas fa-video"></i></button>
+    </div>
+    
+
+</body>
+</html>
